@@ -7,7 +7,7 @@ import Login from "./Components/Login/Login";
 import Bags from "./Components/Bags/Bags";
 import HotDeals from "./Components/Hotdeals/Hotdeals";
 import Belt from "./Components/Belt/Belt";
-import About from "./Components/About/About";
+// import About from "./Components/About/About";
 import ProductDetail from "./Components/ProductDetail/ProductDetails";
 import { Profiler } from "react";
 import Cart from '../Cart/Cart';
@@ -25,7 +25,7 @@ function App() {
         { path: "Bags", element: <Bags /> },
         { path: "HotDeals", element: <HotDeals /> },
         { path: "Belt", element: <Belt /> },
-        { path: "About", element: <About /> },
+        // { path: "About", element: <About /> },
         { path: "Cart", element: <Cart /> },
         { path: "Checkout", element: <Checkout /> },
         { path: "register", element: <Register /> },
