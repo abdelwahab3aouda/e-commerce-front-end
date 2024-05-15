@@ -42,11 +42,7 @@ export default function Navbar({ userData, logout }) {
                     Admin Panel
                   </Link>
                 </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="About">
-                    About
-                  </Link>
-                </li>
+                
               </ul>
             ) : (
               ""
