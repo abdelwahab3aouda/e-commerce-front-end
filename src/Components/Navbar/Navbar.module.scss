@@ -1,0 +1,12 @@
+@import "../../index.scss";
+
+.bgNavbar {
+  background: $lightBgColor;
+}
+
+a:hover {
+  color: #40bfff !important;
+}
+a {
+  color: $fontColor !important;
+}

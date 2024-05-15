@@ -1,0 +1,63 @@
+.main_card{
+    width: 20rem;
+    height: 580px !important;
+}
+.path{
+    width: 100% !important;
+    font-size: 16px;
+    position: relative;
+    top: 0px;
+    /* left: 50%; */
+    border: 1px solid transparent;
+    margin: 3% 0;
+}
+.product_img{
+    width: 285px;
+    height: 285px;
+}
+.product_img_container {
+    position: relative;
+}
+
+.hot {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red; 
+    color: white;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.love_icon, .card_icon{
+    position: absolute;
+    bottom: -100px;
+    /* top: 20px; */
+    right: 20px;
+    padding: 8px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.realprice{
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+}
+.price{
+    color: gray !important;
+    position: absolute;
+    bottom: -30px;
+    right: 20px;
+}
+.star{
+    color: gold;
+}
+.name {
+    display: -webkit-box;
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
